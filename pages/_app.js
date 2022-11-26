@@ -28,7 +28,9 @@ export default function App({ Component, pageProps }) {
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <LayoutWrapper>
-        <Component {...pageProps} />
+        <PlausibleProvider domain="mansour-mahamat.dev">
+          <Component {...pageProps} />
+        </PlausibleProvider>
       </LayoutWrapper>
     </ThemeProvider>
   )
