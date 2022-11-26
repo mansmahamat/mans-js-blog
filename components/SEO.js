@@ -25,7 +25,12 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={twImage} />
-      <PlausibleProvider domain="mansour-mahamat.dev" />
+      <script
+        defer
+        data-domain="mansour-mahamat.dev"
+        src="https://plausible.io/js/script.js"
+      ></script>
+
       <link
         rel="canonical"
         href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
