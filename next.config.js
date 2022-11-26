@@ -12,7 +12,7 @@ const ContentSecurityPolicy = `
   connect-src *;
   font-src 'self';
   frame-src giscus.app,
-  default-src 'self'; script-src plausible.io; connect-src plausible.io
+  *.plausible.io
 `
 
 const securityHeaders = [
