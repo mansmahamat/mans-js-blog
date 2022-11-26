@@ -20,6 +20,10 @@ const securityHeaders = [
     key: 'Content-Security-Policy',
     value: ContentSecurityPolicy.replace(/\n/g, ''),
   },
+  {
+    key: 'Content-Security-Policy',
+    value: 'default-src self; script-src plausible.io; connect-src plausible.io',
+  },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
   {
     key: 'Referrer-Policy',
