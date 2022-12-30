@@ -9,7 +9,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/mansour.jpg',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/mansweb.png',
   email: 'mansour.mahamat.salle@gmail.com',
   github: 'https://github.com/mansmahamat',
   twitter: 'https://twitter.com/Mans_JS',
